@@ -8,6 +8,9 @@ import polyImage from './Images/poly.jpg'
 import ecomImage from './Images/ecom.jpg'
 import noteImage from './Images/note.jpg'
 import clockImage from './Images/clock.jpg'
+import AIwriter from './Images/AIwriter.png'
+import videoAI from './Images/videoAI.png'
+
 function App() {
 
 
@@ -70,7 +73,7 @@ const SkillsComp = <div>
 	<div id="skill section"
 	className="flex flex-row justify-between">
 		<h1 id="skill">Tailwind css</h1>
-		<h1 id="%">66%</h1>
+		<h1 id="%">75%</h1>
 	</div>
 
 	<div id="skill section"
@@ -108,6 +111,26 @@ const SkillsComp = <div>
 
 const ProjectExpComp = <div className="flex flex-col items-center font-bold gap-y-2">
 	<h1 className="font-bold text-3xl mt-5 underline text-center italic">Project Experience</h1>
+	<a 
+		className="text-center mt-2 text-2xl">
+		Frontend AI web app 
+		<img 
+			className="
+			max-w-[36rem]
+			rounded-2xl border-4 border-white 
+			mt-2 w-81 h-81 p-2 bg-black" 
+			src={videoAI}></img>
+	</a>
+	<a 
+		className="text-center mt-2 text-2xl">
+		Free AI Writer  
+		<img 
+			className="
+			max-w-[36rem]
+			rounded-2xl border-4 border-white 
+			mt-2 w-81 h-81 p-2 bg-black" 
+			src={AIwriter}></img>
+	</a>
 	<a className="text-center mt-2 text-2xl">Polygon Area Calculator 
 		<img className="rounded-2xl border-4 border-white mt-2 w-81 h-81 p-2 bg-black" src={polyImage}></img> </a>
 	<a className="text-center mt-2 text-2xl">Ecommerce
