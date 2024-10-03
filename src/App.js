@@ -25,13 +25,19 @@ const handleEmailClick = () => {
 const CertsComp = <div>  	  
 	<h1 className="font-bold text-3xl mt-5 underline text-center mb-2">Certifications</h1>
 	<div className="flex flex-col items-center space-y-8">
+
 	  <div className="text-center">
-	    <h1 className="max-w-md">Developer Certification of <b>Front End Development Libraries</b> at freeCodeCamp.org</h1>
+	    <h1 className="max-w-md">Developer Certification of <b>Scientific Computing with Python</b> at FreeCodeCamp.org</h1>
+	    <h2 className='text-sm'>Sept 25, 2024</h2>
+	  </div>
+
+	  <div className="text-center">
+	    <h1 className="max-w-md">Developer Certification of <b>Front End Development Libraries</b> at FreeCodeCamp.org</h1>
 	    <h2 className='text-sm'>August 4, 2024</h2>
 	  </div>
 	  
 	  <div className='text-center'>
-	    <h1 className='max-w-md'>Certificate of Completion in the <b>Certified in Cybersecurity</b> training at isc2.org</h1>
+	    <h1 className='max-w-md'>Certificate of Completion in the <b>Certified in Cybersecurity</b>  at Isc2.org</h1>
 	    <h2 className='text-sm'>July 19, 2024</h2>
 	  </div> 
 	
@@ -56,24 +62,25 @@ const SkillsComp = <div>
 	<div id="skill section"
 	className="flex flex-row justify-between">
 		<h1 id="skill">React</h1>
-		<h1 id="%">66%</h1>
+		<h1 id="%">75%</h1>
 	</div>
 
 	<div id="skill section"
 	className="flex flex-row justify-between">
 		<h1 id="skill">JavaScript</h1>
-		<h1 id="%">55%</h1>
+		<h1 id="%">60%</h1>
+	</div>
+
+	<div id="skill section"
+	className="flex flex-row justify-between">
+		<h1 id="skill">Tailwind css</h1>
+		<h1 id="%">75%</h1>
 	</div>
 
 	<div id="skill section"
 	className="flex flex-row justify-between">
 		<h1 id="skill">Git</h1>
 		<h1 id="%">66%</h1>
-	</div>
-	<div id="skill section"
-	className="flex flex-row justify-between">
-		<h1 id="skill">Tailwind css</h1>
-		<h1 id="%">75%</h1>
 	</div>
 
 	<div id="skill section"
@@ -94,12 +101,12 @@ const SkillsComp = <div>
 	</div>
 	<div id="skill section"
 	className="flex flex-row justify-between">
-		<h1 id="skill">Express</h1>
-		<h1 id="%">25%</h1>
+		<h1 id="skill">NodeJS</h1>
+		<h1 id="%">33%</h1>
 	</div>
 	<div id="skill section"
 	className="flex flex-row justify-between">
-		<h1 id="skill">NodeJS</h1>
+		<h1 id="skill">Express</h1>
 		<h1 id="%">25%</h1>
 	</div>
 	<div id="skill section"
@@ -149,7 +156,7 @@ const ProjectExpComp = <div className="flex flex-col items-center font-bold gap-
       <header className="flex flex-col items-center">
         <img src={logo} className="App-logo" alt="logo" />
         <h1 className="font-bold text-4xl text-center">Hi, I'm Nate! <br/> <code className="text-2xl">Security Analyst / Python / Javascript Programmer</code></h1>
-	<p className="my-5 mx-5 text-center max-w-lg">
+	<p className="my-5 mx-5 text-center max-w-[30rem]">
 	  I enjoy solving technical problems,
 	  learning, and discovering in the field of Computer Science.
         </p>
