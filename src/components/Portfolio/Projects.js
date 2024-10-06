@@ -25,16 +25,15 @@ font-bold gap-y-2">
     mt-5 underline text-center italic"
     >Projects</h1>
     
-    <p>Here are some projects I've worked on:</p>
+    {/* revise to make this a row of 3 */}
     
-    <div id="row of 2"
+    <div id="row of 3"
     className='
-    md:flex-row md:space-y-0
-    md:space-x-10
-    flex flex-col items-center space-y-6
-    md:mx-0 mx-8'
+    flex-row flex 
+    '
     >
-        <div id='Pop up image'
+        {/* Pop up start */}
+        <section id='Pop up image'
             className="
             relative
             outline outline-2 rounded-3xl
@@ -45,18 +44,14 @@ font-bold gap-y-2">
                 alt="company" loading="lazy"
                 className='
                 grow
-                max-w-[250px]
-                max-h-[250px]
-                min-h-[250px]
-                md:max-h-[350px]
-                md:min-h-[350px]
-                md:max-w-[350px]
-                lg:min-h-[450px]
-                lg:max-h-[450px]
-                lg:max-w-[450px]
-                xl:min-h-[550px]
-                xl:max-h-[550px]
-                xl:max-w-[550px]
+                max-w-[200px]
+                min-h-[600px]
+                md:max-w-[300px]
+                md:min-h-[650px]
+                lg:max-w-[350px]
+                lg:min-h-[650px]
+                xl:max-w-[400px]
+                xl:max-h-[700px]
                 
                 rounded-2xl object-cover'/>
 
@@ -86,55 +81,10 @@ font-bold gap-y-2">
 
             </div>
 
-        </div>
+        </section>
+        {/* Pop up end */}
 
-        <div id='Pop up image'
-            className="
-            relative outline outline-2 rounded-3xl
-            ">
-        <img src={AIwriter}
-                alt="company" loading="lazy"
-                className='
-                grow
-                max-w-[250px]
-                max-h-[250px]
-                min-h-[250px]
-                md:max-h-[350px]
-                md:min-h-[350px]
-                md:max-w-[350px]
-                lg:min-h-[450px]
-                lg:max-h-[450px]
-                lg:max-w-[450px]
-                xl:min-h-[550px]
-                xl:max-h-[550px]
-                xl:max-w-[550px]
-                
-                rounded-2xl object-cover'/>
 
-        <div class="
-            absolute top-0 left-0 right-0 bottom-0 
-            flex flex-col justify-between font-bold
-            py-5 px-6">
-            
-            <h1 
-                className='
-                xl:text-5xl md:text-4xl text-2xl md:max-w-[600px]
-                text-white'>
-                Free AI Writer
-            </h1>
-            <div><button 
-                className="
-                xl:w-60 xl:h-16 xl:text-xl md:w-48 md:h-12 min-w-44
-                w-24 h-8
-                outline outline-custom-blue-button outline-2 rounded-full text-custom-blue-button
-                hover:bg-custom-blue-button transition-all duration-300 ease-in-out hover:text-white
-                ">
-                View
-            </button></div>
-
-        </div>
-
-        </div>
     </div>
 
     <div 
