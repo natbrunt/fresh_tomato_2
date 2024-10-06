@@ -1,0 +1,2 @@
+Youtube videos to watch
+1) Tailwind css scroll snapping
