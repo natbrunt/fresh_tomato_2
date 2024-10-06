@@ -4,29 +4,35 @@ import Projects from './Portfolio/Projects.js';
 
 function Header() {
 return (
-<div 
+<header 
   className="
   h-screen
-  lg:flex-row flex flex-col items-center">
-  <section
+  lg:flex-row flex flex-col">
+  <div id="Intro wrapper"
     className='
+    flex flex-col justify-between
     xl:min-w-[58rem] lg:min-w-[48rem] min-w-[32rem]'>
-      <img src={logo} className="max-w-[18rem]" alt="logo" />
-      <h1 className="font-bold text-4xl text-center">Hi, I'm Nate! <br/> <code className="text-2xl">Security Analyst / Python / Javascript Programmer</code></h1>
+      <div
+        className='flex flex-row items-center'>
+        <img src={logo} className="max-w-[18rem]" alt="logo" />
+        <h1 className="font-bold text-4xl text-center">Hi, I'm Nate! <br/> <code className="text-2xl">Security Analyst / Python / Javascript Programmer</code></h1>
+      </div>
       <p className="my-5 mx-5 text-center max-w-[30rem]">
         I enjoy solving technical problems,
         learning, and discovering in the field of Computer Science.
       </p>
-  </section>
+  </div>
   
-  <section
+  <div
     className='
-    max-w-[58rem]'
+    bg-black
+    text-white
+    lg:min-w-1.5'
     >
     <Projects />
-  </section>
+  </div>
 
-</div>
+</header>
   )
 }
 

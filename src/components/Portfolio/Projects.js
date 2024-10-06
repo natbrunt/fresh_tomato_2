@@ -44,8 +44,8 @@ font-bold gap-y-2">
                 alt="company" loading="lazy"
                 className='
                 grow
-                max-w-[200px]
-                min-h-[600px]
+                max-w-[130px]
+                min-h-[450px]
                 md:max-w-[300px]
                 md:min-h-[650px]
                 lg:max-w-[350px]
